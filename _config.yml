@@ -1,11 +1,20 @@
-title: Lang Liu
-description: Programmer & Traveler.
-url: http://kkninjae.com
-avatar: /assets/img/avatar.jpg
-favicon: /assets/img/favicon.ico
-google_analytics: UA-62396585-1
-disqus_shortname: kkninjae
+title: Book
+description: A simple Jekyll theme
+url: # site url
+avatar: # path/to/avatar for index page. e.g. /assets/img/avatar.jpg
+favicon: # path/to/favicon for site. e.g. /assets/img/favicon.ico
+google_analytics: # google analytics id
+disqus_shortname: # disqus_shortname for disqus comment system
 
+# Content for about page.
+# Each paragraph will be a <p> tag which is inserted to about
+# page. text_align is used to align the text. Default is left.
+# Other two values are center and right. If there are some links
+# in your paragraph, use '?link?' to take the place of a link.
+# And then write the real link under links. name is the link
+# text. url is the link. when external is set as true, then
+# a new whidow will be open when link is clicked.
+#
 about:
   - paragraph: ?link?, a simple Jekyll theme. Built by ?link?
     text_align: center
