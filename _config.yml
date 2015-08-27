@@ -1,0 +1,20 @@
+title: Lang Liu
+description: Programmer & Traveler.
+url: http://kkninjae.com
+avatar: /assets/img/avatar.jpg
+favicon: /assets/img/favicon.ico
+google_analytics: UA-62396585-1
+disqus_shortname: kkninjae
+
+about:
+  - paragraph: ?link?, a simple Jekyll theme. Built by ?link?
+    text_align: center
+    links:
+      - name: Book
+        url: https://github.com/kkninjae/book
+        external: true
+      - name: Lang Liu
+        url: http://kkninjae.com/about/
+        external: false
+
+    

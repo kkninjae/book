@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- head -->
+    {% include head.html %}
+
+    <!-- fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/assets/css/solarized_dark.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+
+    <!-- script -->
+    <script src="/assets/js/jquery-1.11.3.min.js"></script>
+    <script src="/assets/js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="/assets/js/script.js"></script>
+
+    {% if site.google_analytics %}
+    <!-- Google Analytics -->
+    {% include google-analytics.html %}
+    {% endif %}
+  </head>
+  <body>
+
+    {{ content }}
+
+  </body>
+</html>
