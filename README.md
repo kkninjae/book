@@ -7,7 +7,7 @@ Book, a simple Jekyll theme. [Demo](http://kkninjae.github.io/book/)
 
 ![](http://kkninjae.github.io/book/assets/img/mobile.jpg)
 
-![](http://kkninjae.github.io/book/assets/img/index.jpg)
+![](http://kkninjae.github.io/book/assets/img/desktop.jpg)
 
 ![](http://kkninjae.github.io/book/assets/img/404.jpg)
 
