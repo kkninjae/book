@@ -40,6 +40,6 @@ Please do not delete the first two lines of style.css file.
 End.
 ----
 
-If you like it, [star](https://github.com/kkninjae/book) button is ready :).
+If you like it, [star](https://github.com/kkninjae/book) it :).
 
 If you have a problem, [github issue is ready](https://github.com/kkninjae/book/issues).

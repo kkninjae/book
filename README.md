@@ -5,16 +5,17 @@ Book, a simple Jekyll theme. [Demo](http://kkninjae.github.io/book/)
 
 ### Screenshots
 
-![](http://kkninjae.github.io/book/assets/img/mobile.jpg)
+![](./assets/img/mobile.jpg)
 
-![](http://kkninjae.github.io/book/assets/img/desktop.jpg)
+![](./assets/img/desktop.jpg)
 
-![](http://kkninjae.github.io/book/assets/img/404.jpg)
+![](./assets/img/404.jpg)
 
 ### Features
 
 * Responsive layout and mobile first
 * Customized [404](http://kkninjae.github.io/book/hehe) page
+* Footer link is the back-home link
 
 ### Get started
 
@@ -47,7 +48,7 @@ Please do not delete the first two lines of style.css file.
 End.
 ----
 
-If you like it, [star](https://github.com/kkninjae/book) button is ready :).
+If you like it, [star](https://github.com/kkninjae/book) it.
 
 If you have a problem, [github issue is ready](https://github.com/kkninjae/book/issues).
 

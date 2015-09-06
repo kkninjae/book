@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="clear-footer post-wrapper">
+<div class="footer-clear post-wrapper">
 
   <!-- post archive trigger -->
   <div class="post-archive-trigger">
@@ -10,23 +10,19 @@ layout: default
 
   <!-- post archive -->
   <div class="post-archive">
-    {% if site.posts %}
-    <ul>
+    <div class="post-archive-iterms">
       {% for post in site.posts %}
       {% if page.url == post.url %}
       {% assign status = 'checked' %}
       {% else %}
       {% assign status = '' %}
       {% endif %}
-      <li>
-        <div class="post-archive-iterm">
-          <span class="post-archive-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-          <a class="link-1 post-archive-title {{ status }}" href="{{ post.url }}">{{ post.title }}</a>
-        </div>
-      </li>
+      <a class="post-archive-iterm" href="{{ post.url }}">
+        <span class="post-archive-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <span class="post-archive-title {{ status }}">{{ post.title }}</span>
+      </a>
       {% endfor %}
-    </ul>
-    {% endif %}
+    </div>
   </div>
 
   <!-- post header -->
