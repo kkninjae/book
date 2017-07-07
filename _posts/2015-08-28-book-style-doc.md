@@ -35,7 +35,7 @@ lion
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
 
-![](/book/assets/img/blog/dessert.jpg)
+![](/assets/img/blog/dessert.jpg)
 
 Tamquam ullamcorper consequuntur vim in, clita tritani consulatu te duo. Vel ut ignota petentium contentiones. Sea in assum tantas ubique, ne sit amet eripuit bonorum. At vis fabellas maiestatis, ea nihil ridens nec, utroque appareat convenire id vim. Est virtute epicurei ad.
 
