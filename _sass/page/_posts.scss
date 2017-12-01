@@ -1,0 +1,30 @@
+.posts {
+  margin: 3.125rem 0 3.75rem;
+  padding: 0 10px;
+
+  ul {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: 3.75rem;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  a {
+    color: #000000;
+  }
+
+  .card {
+    min-height: 18.75rem;
+  }
+
+  a:hover .card {
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+}

@@ -1,67 +1,78 @@
-Book
-====
+![](https://raw.githubusercontent.com/kkninjae/book/develop/github/hero.png)
 
-Book, a simple Jekyll theme. [Demo](http://kkninjae.github.io/book/)
 
-### Screenshots
+# Book
 
-![](http://kkninjae.github.io/book/assets/img/mobile.jpg)
+Book, a simple and ready-to-use Jekyll theme. [Live](http://kkninjae.github.io/book/).
 
-![](http://kkninjae.github.io/book/assets/img/desktop.jpg)
 
-![](http://kkninjae.github.io/book/assets/img/404.jpg)
+## How-to
 
-### Features
+*   [Setup](#setup)
+*   [Customization](#customization)
+*   [Writing Posts](#writing-posts)
+*   [Deploy to Github Page](#deploy-to-gh-pages)
 
-* Responsive layout and mobile first
-* Customized [404](http://kkninjae.github.io/book/hehe) page
-* Footer link is the back-home link
 
-### Get started
+### <a name="setup" id>Setup</a>
 
-1.  fork the [repo](https://github.com/kkninjae/book/fork).
-2.  clone `git clone https://github.com/username/book`
-3.  run `jekyll serve -w`
+```sh
+# get a copy of book source code
+$ git clone https://github.com/kkninjae/book.git
 
-[http://localhost:4000](http://localhost:4000) should be ready.
+# running site locally
+$ jekyll serve -w
 
-Customization
--------------
+# from now, you should be able to start development or customization
+```
 
-### _config.yml file
 
-* title: site name
-* description: site description
-* url: site url
-* avatar: absolute path of avatar which is a picture (140px * 140px) on the index page.
-* favicon: absolute path of site favicon
-* google_analytics: id for google analystics
-* disqus_shortname: shortname of disque comment system
-* about: content on the about page.
-  you can write more than one paragraph but the format should be like the original one.
-  the special word `?link?` will be replaced by one of the links which are listed under links.
+### <a name="customization">Customization</a>
 
-### warning
+Book is designed as simple as possible, but few changes can make your site uniq.
+You only need to change the values of keys in `_config.yml` file.
 
-Please do not delete the first two lines of style.css file.
+*   Change site path: `baseurl`
+*   Give your site a name: `title`
+*   Make a site favicon: `favicon`
+*   Make a special home button image: `avatar`
 
-End.
-----
 
-If you like it, [star](https://github.com/kkninjae/book) it.
+Last but not least
 
-If you have a problem, [github issue is ready](https://github.com/kkninjae/book/issues).
+*   If you are using Google analytics: `ga`
+*   If you are using Disqus commenting system: `disqus`
 
-Open Sources
-------------
 
-The following open sources have been used in this project.
+### <a name="writing-posts">Writing Posts</a>
 
-* [Google Fonts](https://www.google.com/fonts)
-* [jQuery](https://jquery.com/)
-* [highlight.js](https://highlightjs.org/)
+Make a markdown file in `_posts` directory,
+follow [Jekyll post naming convention](https://jekyllrb.com/docs/posts/) to name your post,
+and put following front matter to the top of your post.
+You should be able to start to write your awesome post.
+Read this [POST](https://kkninjae.github.io/book/2015/08/28/how-to-use-book.html) to know more tips.
 
-License
--------
+```markdown
+---
+title: Your awesome post title
+date: YYYY-MM-DD
+---
+```
 
-[MIT](./LICENSE)
+
+### <a name="deploy-to-gh-pages">Deploy to Github Page</a>
+
+There is a deploying script built out of box.
+You need to install one more tool before using it which is [npm](https://www.npmjs.com/get-npm).
+This script will push your current static site to `gh-pages` branch.
+If there is no `gh-pages` branch yet, the script will create it for you.
+
+```sh
+# start to deploy your site to Github pages
+$ npm run deploy
+```
+
+
+## End.
+
+If you like this theme, why not give it a star. :)

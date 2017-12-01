@@ -1,0 +1,30 @@
+/* dependency: variables, mixins */
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(186, 186, 186, 0.5);
+  padding: 10px;
+
+  @include breakpoint(medium) {
+    padding: 10px 20px;
+  }
+
+  &__title {
+    margin: 0.625rem 0;
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+  }
+
+  &__date {
+    height: 1.3125rem;
+    line-height: 1.3125rem;
+    font-size: 0.875rem;
+    color: $post-date-text-color;
+  }
+
+  &__excerpt {
+    margin: 0.9375rem 0 1.25rem;
+    color: $post-base-text-color;
+    line-height: 1.5rem;
+  }
+}

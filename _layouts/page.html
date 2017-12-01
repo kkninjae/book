@@ -1,15 +1,29 @@
----
-layout: default
----
-<div class="footer-clear page-wrapper">
+<!DOCTYPE html>
+<html>
+<head>
 
-  <div class="page-container">
+  {% include head.html %}
+
+  <link rel="stylesheet" href="{{ 'assets/css/page.css' | relative_url }}" media="all">
+
+</head>
+<body>
+
+  <div class="page-content clear-header--top clear-navbar--top clear-footer--bottom">
+
+    {% include header.html %}
+
+    {% include navigation.html %}
+
+    <main class="main clear-header--left">
 
     {{ content }}
 
+    </main>
+
+    {% include footer.html %}
+
   </div>
 
-  <!-- footer -->
-  {% include footer.html %}
-
-</div>
+</body>
+</html>

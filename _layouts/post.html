@@ -1,70 +1,46 @@
 ---
-layout: default
+layout: page
 ---
-<div class="footer-clear post-wrapper">
 
-  <!-- post archive trigger -->
-  <div class="post-archive-trigger">
-    <div class="post-archive-icon"></div>
+<div class="post">
+
+  <div class="card">
+
+    {% if page.title %}
+    <h1 class="card__title article_title">{{ page.title | capitalize }}</h1>
+    {% endif %}
+
+    {% if page.date %}
+    <div class="card__date">{{ page.date | date: "%Y / %m / %d" }}</div>
+    {% endif %}
+
+    <div class="article__content">{{ content }}</div>
+
   </div>
 
-  <!-- post archive -->
-  <div class="post-archive">
-    <div class="post-archive-iterms">
-      {% for post in site.posts %}
-      {% if page.url == post.url %}
-      {% assign status = 'checked' %}
-      {% else %}
-      {% assign status = '' %}
-      {% endif %}
-      <a class="post-archive-iterm" href="{{ post.url }}">
-        <span class="post-archive-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-        <span class="post-archive-title {{ status }}">{{ post.title }}</span>
-      </a>
-      {% endfor %}
+
+  <div class="post__comment">
+    {% if site.disqus and page.comment %}
+    <div class="post__comment--on">
+      {% assign url = page.url | absolute_url %}
+      {% include disqus.html username = site.disqus url = url id = page.id %}
     </div>
-  </div>
-
-  <!-- post header -->
-  <div class="post-header">
-    <h1>{{ page.title }}</h1>
-    <span>{{ page.date | date: "%Y-%m-%d" }}</span>
-  </div>
-
-  <!-- post content -->
-  {% if page.tags contains 'chinese' %}
-  {% assign type = 'chinese' %}
-  {% else %}
-  {% assign type = 'english' %}
-  {% endif %}
-
-  <div class="post-content {{ type }}">
-    {{ content }}
-  </div>
-
-  <!-- post navigator -->
-  <div class="post-nav">
-    {% if page.previous %}
-    <a class="post-nav-previous"href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-    {% endif %}
-
-    {% if page.previous and page.next %}
-    <div class="post-nav-sep"></div>
-    {% endif %}
-
-    {% if page.next %}
-    <a class="post-nav-next" href="{{ page.next.url }}">{{ page.next.title }}</a>
+    {% else %}
+    <div class="post__comment--off">Comment is not allowed.</div>
     {% endif %}
   </div>
 
-  <!-- disqus comment system -->
-  {% if site.disqus_shortname != '' %}
-  <div class="post-comment">
-    {% include disqus.html %}
-  </div>
-  {% endif %}
 
-  <!-- footer -->
-  {% include footer.html %}
+  <div class="post__pagination">
+    <ul>
+      {% if page.next %}
+      <li>{% include card.html post=page.next volume='less' %}</li>
+      {% endif %}
+
+      {% if page.previous %}
+      <li>{% include card.html post=page.previous volume='less' %}</li>
+      {% endif %}
+    </ul>
+  </div>
 
 </div>

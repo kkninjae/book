@@ -1,0 +1,40 @@
+---
+# this ensures Jekyll process this scss file
+---
+
+/* normalizing styles
+   ========================================================================= */
+@import 'vendor/reset';
+
+/* settings
+   ========================================================================= */
+@import 'variables';
+@import 'mixins';
+
+/* components
+   ========================================================================= */
+@import 'component/base';
+@import 'component/footer';
+
+/* content
+   ========================================================================= */
+.pnf-wrapper {
+  position: relative;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0.625rem 0;
+}
+
+.tangram {
+  margin: 5.625rem auto 2.5rem auto;
+  width: 40%;
+  max-width: 256px;
+
+  svg {
+    display: block;
+  }
+}
+
+.description {
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+/* site variables */
+
+/* color
+   ========================================================================= */
+$base-background-color: #f8f8f8;
+$link-text-color: #6599FF;
+$button-link-text-color: #9B9B9B;
+$post-base-text-color: #606060;
+$post-date-text-color: #b9b9b9;
+
+
+/* font
+   ========================================================================= */
+$base-font-family: 'Titillium Web', sans-serif;
+
+
+/* breakpoints
+   ========================================================================= */
+$breakpoint-medium: 769px;
+$breakpoint-large: 1024px;
+
+
+/* z-index
+   ========================================================================= */
+$zindex-low: 1;
+$zindex-medium: 2;
+$zindex-high: 3;
+
+
+/* header variables
+   ========================================================================= */
+$header-mobile-height: 16rem;
+$header-desktop-width: 23.4375rem;
+$header-avatar-height: 6.875rem;
+$header-avatar-desktop-top: 9.0625rem;
+
+
+/* navigation variables
+   ========================================================================= */
+$navigation-item-desktop-top: 1.25rem;
+$navigation-item-height: 1.5625rem;
+$navigation-item-tail-width: $navigation-item-height / 3;
+
+
+/* footer variables
+   ========================================================================= */
+$footer-height: 4.25rem;

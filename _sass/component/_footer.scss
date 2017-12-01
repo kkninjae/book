@@ -1,0 +1,26 @@
+/* dependency: variables */
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  padding: 0.625rem 0;
+  height: $footer-height;
+  text-align: center;
+
+  &__note {
+    line-height: $footer-height / 2 - 0.625;
+  }
+
+  svg {
+    width: 0.75rem;
+    height: 0.75rem;
+    margin-left: 10px;
+  }
+}
+
+.clear-footer--bottom {
+  padding-bottom: $footer-height;
+}

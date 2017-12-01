@@ -1,0 +1,17 @@
+{
+  "name": "book",
+  "version": "1.2.0",
+  "scripts": {
+    "deploy": "bash ./github/deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkninjae/book.git"
+  },
+  "author": "Lang Liu <hello.liulang@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^7.2.3",
+    "postcss-cli": "^4.1.1"
+  }
+}

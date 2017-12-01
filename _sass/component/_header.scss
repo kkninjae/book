@@ -1,0 +1,77 @@
+/* dependency: variables, mixins */
+
+.header {
+  z-index: $zindex-low;
+  position: absolute;
+  top: 0;
+  background-color: $base-background-color;
+  height: $header-mobile-height;
+  width: 100%;
+
+  a:hover {
+    box-shadow: 4px 4px 10px 0 rgba(0,0,0,0.2);
+  }
+
+  @include breakpoint(medium) {
+    position: fixed;
+    width: $header-desktop-width;
+    height: 100%;
+    min-height: 100%;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background-color: #ffffff;
+    height: $header-avatar-height / 2;
+    width: 100%;
+
+    @include breakpoint(medium) {
+      right: 0;
+      height: 100%;
+      width: $header-avatar-height / 2;
+    }
+  }
+}
+
+.header__avatar {
+  position: absolute;
+  right: 0;
+
+  @include mobile-only {
+    bottom: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @include breakpoint(medium) {
+    top: $header-avatar-desktop-top;
+  }
+}
+
+.header__avatar--circle {
+  display: block;
+  box-sizing: border-box;
+  height: $header-avatar-height;
+  width: $header-avatar-height;
+  border-radius: 50%;
+
+  img {
+    @extend .header__avatar--circle;
+    border: 5px solid #ffffff;
+  }
+}
+
+.clear-header--top {
+  @include mobile-only {
+    padding-top: $header-mobile-height;
+  }
+}
+
+.clear-header--left {
+  @include breakpoint(medium) {
+    margin-left: $header-desktop-width;
+  }
+}

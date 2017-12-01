@@ -1,0 +1,26 @@
+---
+# this ensures Jekyll process this scss file
+---
+
+/* normalizing styles
+   ========================================================================= */
+@import 'vendor/reset';
+
+/* settings
+   ========================================================================= */
+@import 'variables';
+@import 'mixins';
+
+/* components
+   ========================================================================= */
+@import 'component/base';
+@import 'component/header';
+@import 'component/navigation';
+@import 'component/footer';
+@import 'component/card';
+
+/* pages
+   ========================================================================= */
+@import 'page/homepage';
+@import 'page/posts';
+@import 'page/post';

@@ -1,29 +1,57 @@
+# basic
+# ============================================================================
+# if your site is serving on https://xxx.github.io, set `baseurl: /`
+# if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
+baseurl: /book
+
+# site title
 title: Book
-description: A simple Jekyll theme
-url: # site url
-avatar: # path/to/avatar for index page. e.g. /assets/img/avatar.jpg
-favicon: # path/to/favicon for site. e.g. /assets/img/favicon.ico
-google_analytics: # google analytics id
-disqus_shortname: # disqus_shortname for disqus comment system
 
-# Content for about page.
-# Each paragraph will be a <p> tag which is inserted to about
-# page. text_align is used to align the text. Default is left.
-# Other two values are center and right. If there are some links
-# in your paragraph, use '?link?' to take the place of a link.
-# And then write the real link under links. name is the link
-# text. url is the link. when external is set as true, then
-# a new whidow will be open when link is clicked.
-#
-about:
-  - paragraph: ?link?, a simple Jekyll theme. Built by ?link?
-    text_align: center
-    links:
-      - name: Book
-        url: https://github.com/kkninjae/book
-        external: true
-      - name: Lang Liu
-        url: http://kkninjae.com/about/
-        external: false
+# site favicon, absolute path required
+favicon: /assets/img/favicon.ico
 
-    
+# home button image, absolute path requried
+avatar: /assets/img/avatar.jpg
+# specify meaningful description for your avatar
+avatarInfo: "Tokyo tower"
+
+# default variables for post-type page
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comment: true
+
+
+# sass
+# ============================================================================
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+# exclude none site related files
+# ============================================================================
+exclude:
+  - README.md
+  - LICENSE
+  - github
+  - package.json
+  - package-lock.json
+  - node_modules
+
+
+# google analytics
+# ============================================================================
+# turn it off -> ga: false
+ga: UA-69579248-1
+
+
+# disqus
+# ============================================================================
+# turn it off for all posts -> disqus: false
+# turn it off for a particular post -> add `comment: false` to post front matter
+disqus: kkninjae
