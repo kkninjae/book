@@ -41,4 +41,4 @@ echo
 echo "=> Push to remote server"
 git add .
 git commit -m "release"
-git push -f origin gh-pages
+git push -u origin gh-pages
