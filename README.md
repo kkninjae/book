@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/kkninjae/book/develop/github/hero.png)
+![](https://raw.githubusercontent.com/kkninjae/book/master/github/hero.png)
 
 
 # Book
