@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>How to Use Book</title>
+
+<!-- favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="/book/assets/img/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/book/assets/img/favicon.ico" />
+
+<!-- font -->
+<link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,400i" rel="stylesheet">
+
+<!-- RSS -->
+<link rel="alternate" type="application/rss+xml" title="Book" href="/book/feed.xml" />
+
+
+
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69579248-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-69579248-1');
+</script>
+
+
+
+
+  <link rel="stylesheet" href="/book/assets/css/page.css" media="all">
+
+</head>
+<body>
+
+  <div class="page-content clear-header--top clear-navbar--top clear-footer--bottom">
+
+    <header class="header">
+  <a class="header__avatar header__avatar--circle" href="/book/">
+    <img src="/book/assets/img/avatar.jpg" alt="Tokyo tower">
+  </a>
+</header>
+
+
+    <nav class="navbar">
+  <ul>
+    <li class="navbar__item"><a href="/book/posts.html">Posts</a></li>
+    <li class="navbar__item"><a href="https://github.com/kkninjae/book/archive/master.zip">Download</a></li>
+  </ul>
+</nav>
+
+
+    <main class="main clear-header--left">
+
+    <div class="post">
+
+  <div class="card">
+
+    
+    <h1 class="card__title article_title">How to use book</h1>
+    
+
+    
+    <div class="card__date">2015 / 08 / 28</div>
+    
+
+    <div class="article__content"><p>Simple is better, but many themes are over designed.
+So, <a href="https://github.com/kkninjae/book">Book</a> is born.</p>
+
+<h2 id="get-started">Get started</h2>
+
+<p>You should be able to use Book without significant change.
+But make sure you have modified <code class="highlighter-rouge">baseurl</code> properly before using it.</p>
+
+<p>After that, you can follow the steps below to run it locally.</p>
+
+<ol>
+  <li>Download this repository
+    <ul>
+      <li>Use Git to clone it, or</li>
+      <li>Download it via <a href="https://github.com/kkninjae/book/archive/master.zip">Github</a></li>
+    </ul>
+  </li>
+  <li>Read <code class="highlighter-rouge">_config.yml</code> and change the default settings as your need</li>
+  <li>Install <code class="highlighter-rouge">jekyll</code> and run <code class="highlighter-rouge">jekyll serve -w</code></li>
+</ol>
+
+<h2 id="tips">Tips</h2>
+
+<p>Use absolute path when you change values of <code class="highlighter-rouge">favicon</code> or <code class="highlighter-rouge">avatar</code>.</p>
+
+<p>When you write posts, there is no need to specify a layout for each post.
+<code class="highlighter-rouge">post</code> layout is the default value for any posts.
+Otherwise, specify a different layout value if you do not want to use <code class="highlighter-rouge">post</code> layout.</p>
+
+<p>If you are using <a href="https://disqus.com/">Disqus</a> commenting system, commenting is turned on for every post by default. You can set <code class="highlighter-rouge">disqus: false</code> in <code class="highlighter-rouge">_config.yml</code> file to disable comment for all posts. Or, you can add <code class="highlighter-rouge">comment: false</code> in the front matter of the page you want to disable comment. As you can see, this post disables comment.</p>
+
+<h2 id="end">End.</h2>
+
+<p>If you like it, why not give it a <a href="https://github.com/kkninjae/book">star</a> :).</p>
+</div>
+
+  </div>
+
+
+  <div class="post__comment">
+    
+    <div class="post__comment--off">Comment is not allowed.</div>
+    
+  </div>
+
+
+  <div class="post__pagination">
+    <ul>
+      
+      <li>
+
+
+<a href="/book/2015/09/26/sample-post-with-all-elements.html">
+  <div class="card">
+
+    <h1 class="card__title">Sample Post with All Elements</h1>
+
+    <div class="card__date">2015 / 09 / 26</div>
+
+    
+    
+    <div class="card__excerpt">This post shows all customized elements. Sed ut perspiciatis unde...</div>
+
+  </div>
+</a>
+</li>
+      
+
+      
+    </ul>
+  </div>
+
+</div>
+
+
+    </main>
+
+    <footer class="footer clear-header--left">
+  <div class="footer__note">&copy; 2017 Book</div>
+  <div class="footer__note">Built with <a href="https://github.com/kkninjae/book" target="_blank">Book</a>, a <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> theme. <a href="/book/feed.xml" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg></a></div>
+</footer>
+
+
+  </div>
+
+</body>
+</html>

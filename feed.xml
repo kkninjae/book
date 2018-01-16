@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book</title>
+    <description></description>
+    <link>/book/</link>
+    <atom:link href="/book/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 16 Jan 2018 21:52:07 +0900</pubDate>
+    <lastBuildDate>Tue, 16 Jan 2018 21:52:07 +0900</lastBuildDate>
+    <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>Sample Post with All Elements</title>
+        <description>&lt;p&gt;This post shows all customized elements.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.&lt;/p&gt;
+
+&lt;h2 id=&quot;image&quot;&gt;Image&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://via.placeholder.com/768x480&quot; alt=&quot;Placeholder&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;header&quot;&gt;Header&lt;/h2&gt;
+
+&lt;h1 id=&quot;head-1&quot;&gt;Head 1&lt;/h1&gt;
+&lt;h2 id=&quot;head-2&quot;&gt;Head 2&lt;/h2&gt;
+&lt;h3 id=&quot;head-3&quot;&gt;Head 3&lt;/h3&gt;
+&lt;h4 id=&quot;head-4&quot;&gt;Head 4&lt;/h4&gt;
+&lt;h5 id=&quot;head-5&quot;&gt;Head 5&lt;/h5&gt;
+&lt;h6 id=&quot;head-6&quot;&gt;Head 6&lt;/h6&gt;
+
+&lt;h2 id=&quot;lists&quot;&gt;Lists&lt;/h2&gt;
+
+&lt;p&gt;Unordered list&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I am the first unordered list item&lt;/li&gt;
+  &lt;li&gt;I am the second unordered list item&lt;/li&gt;
+  &lt;li&gt;I am the third unordered list item&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ordered list&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;I am the first ordered list item&lt;/li&gt;
+  &lt;li&gt;I am the second ordered list item&lt;/li&gt;
+  &lt;li&gt;I contain an &lt;code class=&quot;highlighter-rouge&quot;&gt;inline code&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;code-block&quot;&gt;Code block&lt;/h2&gt;
+
+&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;func&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;):&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'hello, world'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'this is a really long statements, this is a really long statementsi, this is a really long statements'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;inline-code&quot;&gt;Inline code&lt;/h2&gt;
+
+&lt;p&gt;Ut enim ad minima veniam, &lt;code class=&quot;highlighter-rouge&quot;&gt;quis&lt;/code&gt; nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, &lt;code class=&quot;highlighter-rouge&quot;&gt;vel&lt;/code&gt; illum qui dolorem eum &lt;code class=&quot;highlighter-rouge&quot;&gt;fugiat&lt;/code&gt; quo voluptas nulla pariatur?&lt;/p&gt;
+
+&lt;h2 id=&quot;blockquote&quot;&gt;Blockquote&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;paragraph&quot;&gt;Paragraph&lt;/h2&gt;
+
+&lt;p&gt;Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2015 00:00:00 +0900</pubDate>
+        <link>/book/2015/09/26/sample-post-with-all-elements.html</link>
+        <guid isPermaLink="true">/book/2015/09/26/sample-post-with-all-elements.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>How to Use Book</title>
+        <description>&lt;p&gt;Simple is better, but many themes are over designed.
+So, &lt;a href=&quot;https://github.com/kkninjae/book&quot;&gt;Book&lt;/a&gt; is born.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-started&quot;&gt;Get started&lt;/h2&gt;
+
+&lt;p&gt;You should be able to use Book without significant change.
+But make sure you have modified &lt;code class=&quot;highlighter-rouge&quot;&gt;baseurl&lt;/code&gt; properly before using it.&lt;/p&gt;
+
+&lt;p&gt;After that, you can follow the steps below to run it locally.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download this repository
+    &lt;ul&gt;
+      &lt;li&gt;Use Git to clone it, or&lt;/li&gt;
+      &lt;li&gt;Download it via &lt;a href=&quot;https://github.com/kkninjae/book/archive/master.zip&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Read &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and change the default settings as your need&lt;/li&gt;
+  &lt;li&gt;Install &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll&lt;/code&gt; and run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve -w&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+
+&lt;p&gt;Use absolute path when you change values of &lt;code class=&quot;highlighter-rouge&quot;&gt;favicon&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;avatar&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;When you write posts, there is no need to specify a layout for each post.
+&lt;code class=&quot;highlighter-rouge&quot;&gt;post&lt;/code&gt; layout is the default value for any posts.
+Otherwise, specify a different layout value if you do not want to use &lt;code class=&quot;highlighter-rouge&quot;&gt;post&lt;/code&gt; layout.&lt;/p&gt;
+
+&lt;p&gt;If you are using &lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt; commenting system, commenting is turned on for every post by default. You can set &lt;code class=&quot;highlighter-rouge&quot;&gt;disqus: false&lt;/code&gt; in &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file to disable comment for all posts. Or, you can add &lt;code class=&quot;highlighter-rouge&quot;&gt;comment: false&lt;/code&gt; in the front matter of the page you want to disable comment. As you can see, this post disables comment.&lt;/p&gt;
+
+&lt;h2 id=&quot;end&quot;&gt;End.&lt;/h2&gt;
+
+&lt;p&gt;If you like it, why not give it a &lt;a href=&quot;https://github.com/kkninjae/book&quot;&gt;star&lt;/a&gt; :).&lt;/p&gt;
+</description>
+        <pubDate>Fri, 28 Aug 2015 00:00:00 +0900</pubDate>
+        <link>/book/2015/08/28/how-to-use-book.html</link>
+        <guid isPermaLink="true">/book/2015/08/28/how-to-use-book.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
