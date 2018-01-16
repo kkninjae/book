@@ -22,11 +22,11 @@ mv -v dist .git/
 
 echo
 echo "=> Checkout gh-pages branch"
-if [ `git branch | grep gh-pages` ]; then
-  echo "=> Delete local gh-pages"
-  git branch -D gh-pages
+if [ `git branch -a | grep gh-pages` ]; then
+  git checkout gh-pages
+else
+  git checkout --orphan gh-pages
 fi
-git checkout -b gh-pages
 
 echo
 echo "=> Clean existed files"
